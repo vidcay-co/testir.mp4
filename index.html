@@ -52,6 +52,16 @@ video {
     pointer-events: auto;
 }
 
+/* HILANGKAN FULLSCREEN BUTTON */
+video::-webkit-media-controls-fullscreen-button {
+    display: none !important;
+}
+video::-webkit-media-controls-picture-in-picture-button {
+    display: none !important;
+}
+video::-webkit-media-controls-enclosure {
+    overflow: hidden;
+}
 
 /* Ad overlay */
 .ad-overlay {
@@ -91,14 +101,14 @@ video {
     <div class="ad-overlay ad-top">
 <script>
   atOptions = {
-    'key' : 'f5137ab8b28f8ec42a1b616c47dea942',
+    'key' : '23ab05ba87deb3622b156e51d0fb782f',
     'format' : 'iframe',
     'height' : 250,
     'width' : 300,
     'params' : {}
   };
 </script>
-<script src="https://conductivebreeds.com/f5137ab8b28f8ec42a1b616c47dea942/invoke.js"></script>
+<script src="https://conductivebreeds.com/23ab05ba87deb3622b156e51d0fb782f/invoke.js"></script>
     </div>
 
     <!-- VIDEO -->
@@ -145,6 +155,9 @@ video {
       });
     })();
   </script>
+
+
+
 
 </body>
 </html>
